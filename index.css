@@ -1,0 +1,116 @@
+body{
+  background-image: url("https://picsum.photos/1920/1080");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin:0;
+  height:100%;
+}
+.calculator{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+.box1{
+  background-color: white;
+  height:700px;
+  width:560px;
+  border: 3px solid;
+  border-radius: 20px;
+  display:flex;
+  flex-direction: column;
+}
+.box1 input{
+  overflow:hidden;
+  border: 2px solid;
+  border-radius: 20px;
+  height:110px;
+  margin:10px;
+  position: static;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:2.5em;
+}
+.controls1, .controls2, .controls3{
+  display:inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items:flex-start;
+  margin-top: 20px;
+  margin-left:5px;
+  position:static;
+  gap:11px;
+}
+.controls1 .reset,.controls1 .del{
+  background-color: #fff8c4;
+  color:#4a0814;
+}
+.controls1 .reset:hover, .controls1 .del:hover{
+  background-color: #fff5ae;
+  
+}
+.controls1 button, .controls2 button, .controls3 button{
+  height:120px;
+  width:100px;
+  border: 2px solid;
+  border-radius: 20px;
+  background-color: #4a0814;
+  color:white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:1.5em;
+  cursor: pointer;
+}
+.controls1 button:hover, .controls2 button:hover, .controls3 button:hover{
+  background-color: #6e0f21;
+}
+.controls2 .add, .controls2 .subtract{
+  background-color: #fff8c4;
+  color:#4a0814
+}
+.controls3 .multiply, .controls3 .divide{
+  background-color: #fff8c4;
+  color:#4a0814
+}
+.controls2 .add:hover, .controls2 .subtract:hover{
+   background-color: #fff5ae;
+}
+.controls3 .multiply:hover, .controls3 .divide:hover{
+  background-color: #fff5ae;
+}
+.zero button{
+  height:120px;
+  width:100px;
+  border:2px solid;
+  border-radius: 20px;
+  margin-left:118px;
+  justify-content: center;
+}
+.zero .last{
+  background-color: #4a0814;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:white;
+  font-size:1.5em;
+  margin-top:5px
+}
+.zero .equals{
+  margin-top:5px;
+  width:215px
+}
+.zero .last:hover{
+  background-color: #6e0f21;
+}
+.equals{
+  background-color: #fff8c4;
+  color:#4a0814
+}
+.equals:hover{
+  background-color: #fff5ae;
+}
+
+
+
+
+
